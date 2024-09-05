@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test_module.py - AutoDoc</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>test_module.py</h1>
+    
+    
+    <h2>Module Description</h2>
+    <p>This is a test module to demonstrate AutoDoc functionality.</p>
+
+    
+    
+    <h2>Imports</h2>
+    <pre><code><div class="source"><table class="sourcetable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div><pre><span></span><span class="kn">import</span> <span class="nn">math</span>
+<span class="kn">import</span> <span class="nn">typing.List</span>
+<span class="kn">import</span> <span class="nn">typing.Dict</span>
+</pre></div></td></tr></table></div>
+</code></pre>
+    
+    <h2>Classes</h2>
+    <div class='class'><h3>class Shape</h3><p><p>A base class for geometric shapes.</p>
+</p><h4>Methods:</h4><div class='method'><h4>__init__</h4><p><em>This function takes 2 arguments and returns None.</em></p><p><strong>Arguments:</strong></p><ul><li>self</li><li>name: str</li></ul></div><div class='method'><h4>area</h4><p><p>Calculate the area of the shape.</p>
+
+<p>Returns:
+    float: The area of the shape.</p>
+</p><p><strong>Arguments:</strong></p><ul><li>self</li></ul><p><strong>Returns:</strong> float</p></div></div><div class='class'><h3>class Circle</h3><p><p>A class representing a circle.</p>
+</p><p>Inherits from: Shape</p><h4>Methods:</h4><div class='method'><h4>__init__</h4><p><em>This function takes 3 arguments and returns None.</em></p><p><strong>Arguments:</strong></p><ul><li>self</li><li>name: str</li><li>radius: float</li></ul></div><div class='method'><h4>area</h4><p><p>Calculate the area of the circle.</p>
+
+<p>Returns:
+    float: The area of the circle.</p>
+</p><p><strong>Arguments:</strong></p><ul><li>self</li></ul><p><strong>Returns:</strong> float</p></div></div>
+    
+    <h2>Functions</h2>
+    <div class='function'><h4>calculate_area</h4><p><p>Calculate the area of a circle.</p>
+
+<p>Args:
+    radius (float): The radius of the circle.</p>
+
+<p>Returns:
+    float: The area of the circle.</p>
+</p><p><strong>Arguments:</strong></p><ul><li>radius: float</li></ul><p><strong>Returns:</strong> float</p></div><div class='function'><h4>process_shapes</h4><p><p>Process a list of shapes and return their areas.</p>
+
+<p>Args:
+    shapes (List[Shape]): A list of Shape objects.</p>
+
+<p>Returns:
+    Dict[str, float]: A dictionary mapping shape names to their areas.</p>
+</p><p><strong>Arguments:</strong></p><ul><li>shapes: List[Shape]</li></ul><p><strong>Returns:</strong> Dict[(str, float)]</p></div>
+    
+    <h2>Global Variables</h2>
+    <pre><code><div class="source"><table class="sourcetable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><span class="n">GLOBAL_CONSTANT</span>
+</pre></div></td></tr></table></div>
+</code></pre>
+    
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
